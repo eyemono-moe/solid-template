@@ -11,7 +11,7 @@
     "fix": "biome check --write .",
     "fix:force": "biome check --write --unsafe .",
     "test": "vitest",
-    "analyze": "pnpm dlx vite-bundle-visualizer"
+    "analyze": "pnpm dlx vite-bundle-visualizer -o .stats.html"
   },
   "dependencies": {
     "@unocss/reset": "^0.61.9",
