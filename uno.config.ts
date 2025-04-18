@@ -1,15 +1,15 @@
+import presetWind4 from "@unocss/preset-wind4";
 import {
   defineConfig,
   presetIcons,
   presetTypography,
-  presetUno,
   presetWebFonts,
   transformerVariantGroup,
 } from "unocss";
 
 export default defineConfig({
   presets: [
-    presetUno(),
+    presetWind4(),
     presetIcons({
       autoInstall: true,
     }),
